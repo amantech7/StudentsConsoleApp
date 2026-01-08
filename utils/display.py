@@ -1,7 +1,5 @@
 def show_student(student):
-    print("Hello " + student["first_name"])
-    print("You are registered below are your details\n")
-
+    
     print("First Name: " + student["first_name"])
     print("Middle Name: " + student["middle_name"])
     print("Last Name: " + student["last_name"])
@@ -14,5 +12,4 @@ def show_student(student):
     print("City: " + student["city"])
     print("Country: " + student["country"])
 
-    print()
     print()
